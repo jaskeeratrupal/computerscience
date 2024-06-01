@@ -1,0 +1,24 @@
+{
+  "name": "week5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --watch --no-source-map scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaskeeratrupal/computerscience.git"
+  },
+  "author": "Jaskeerat Singh Rupal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaskeeratrupal/computerscience/issues"
+  },
+  "homepage": "https://github.com/jaskeeratrupal/computerscience#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.4"
+  }
+}
