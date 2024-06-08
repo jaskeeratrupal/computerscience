@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scaling="1.0" />
+    <title>Jaskeerat Singh Rupal</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container mt-5">
+        <div class="d-flex justify-content-end">
+         
+        </div>
+
+    <div class="nav">
+      <div class="left-section">
+        <ul>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+              >HTML5</a
+            >
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              >JavaScript</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://getbootstrap.com/docs/5.3/gettingstarted/introduction"
+              >Bootstrap</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="right-section">
+        <div class="btn-group">
+          <button class="btn btn-secondary btn-sm" data-bs-theme-value="dark">
+            Dark
+          </button>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-light btn-sm" data-bs-theme-value="light">
+            Light
+          </button>
+          <div class="btn-group">
+            <button class="btn" href="#">
+              Contact Me
+            </button>
+        </div>
+      </div>
+    </div> 
+    </script>
+    <pre style="align:left-section">Factorial calculator.
+      n! =1x2x3...xn.
+      e.g. 5! = 120.
+    </pre>
+    <input type="number" id="numberInput" placeholder="Enter a number" />
+    <button onclick="enter()">Enter</button>"
+    <h1 id="output"></h1>
+    <script>
+      function enter() {
+        let input = document.getElementById("numberInput").value;
+        //document.write(`Your input number is ${input}`);
+        let factorial = calculateFactorial(input);
+        document.getElementById(
+          "output"
+        ).textContent = `factorial of ${input} is ${calculateFactorial(input)}`;
+      }
+    </script>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/darkmodetoggle.js"></script>
+    <footer class="footer">
+      Simple factorial calculator copyright 2024
+    </footer>
+  </body>
+</html>
