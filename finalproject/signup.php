@@ -7,9 +7,9 @@
  if($_SERVER["REQUEST_METHOD"] == "POST"){
 	//Create variables for user 
     $first_name = $_POST['first_name'];
-    $last_name = $_POST['email'];
-    $user_name = $_POST['username'];
-    $email = $_POST['last_name'];
+    $last_name = $_POST['last_name'];
+    $username = $_POST['username'];
+    $email = $_POST['email'];
     $password = $_POST['password'];
     $password = $_POST['confirmpassword'];
  $address = $_POST['address'];
