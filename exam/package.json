@@ -1,0 +1,19 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaskeeratrupal/computerscience.git"
+  },
+  "author": "Jaskeerat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaskeeratrupal/computerscience/issues"
+  },
+  "homepage": "https://github.com/jaskeeratrupal/computerscience#readme",
+  "description": ""
+}
